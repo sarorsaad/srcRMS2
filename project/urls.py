@@ -28,8 +28,10 @@ urlpatterns = [
     path('doctorclick', doctorclick,name='doctorclick'),
     path('adminclick', adminclick,name='adminclick'),
 
-
-
+  #links at patient
+   path('patientsignup', patient_signup ,name='patientsignup'),
+#    path('patient-dashboard', patient_dashboard,name='patient-dashboard'),
+   path('createaccount',createaccount,name='createaccount'),
     
     
 ]
